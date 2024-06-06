@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculateur de Mise</title>
+    <script src="./calculator.js"></script>
+</head>
+<body>
+    <h2>Calculateur de Mise pour Courses de Chevaux</h2>
+    <label for="desired-profit">Bénéfice souhaité :</label>
+    <input type="number" id="desired-profit" value="10"><br><br>
+    
+    <div id="odds-inputs">
+        <label for="odds1">Cote Cheval 1 :</label>
+        <input type="number" id="odds1"><br><br>
+        
+        <label for="odds2">Cote Cheval 2 :</label>
+        <input type="number" id="odds2"><br><br>
+        
+        <label for="odds3">Cote Cheval 3 :</label>
+        <input type="number" id="odds3"><br><br>
+        
+        <label for="odds4">Cote Cheval 4 :</label>
+        <input type="number" id="odds4"><br><br>
+        
+        <label for="odds5">Cote Cheval 5 :</label>
+        <input type="number" id="odds5"><br><br>
+        
+        <label for="odds6">Cote Cheval 6 :</label>
+        <input type="number" id="odds6"><br><br>
+    </div>
+
+    <button onclick="calculateBets()">Calculer les mises</button><br><br>
+
+    <div id="results"></div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
