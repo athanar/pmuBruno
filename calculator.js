@@ -16,10 +16,10 @@ function calculateBets() {
 
     const inverseSum = odds.reduce((sum, odd) => sum + (1 / odd), 0);
 
-    if (inverseSum >= 1) {
+    /*if (inverseSum >= 1) {
         alert("La somme des inverses des cotes doit être inférieure à 1 pour garantir un bénéfice.");
         return;
-    }
+    }*/
 
     const totalStake = desiredProfit / (1 - inverseSum);
 
